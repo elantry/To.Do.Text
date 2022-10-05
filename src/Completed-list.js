@@ -76,9 +76,7 @@ const CompletedList = ({
                   onChange={carStatus}
                 />
               </div>
-              <p className="title" style={{ textDecoration: "line-through" }}>
-                {title}
-              </p>
+              <del className="title">{title}</del>
 
               <div className="dropdown">
                 <button
