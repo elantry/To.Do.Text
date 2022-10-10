@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import List from "./List";
+import List from "./Component/List";
 import "./App.css";
-import CompletedList from "./Completed-list";
+import CompletedList from "./Component/CompletedList";
 
 const getLocalStorage = () => {
   let list = localStorage.getItem("list");
